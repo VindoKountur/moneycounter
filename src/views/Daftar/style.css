@@ -1,0 +1,67 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  flex: 1 0 auto;
+}
+.container-title {
+  background-color: #37c578;
+  width: 30%;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1em 0.25em;
+  margin: 0 auto;
+  margin-top: 2em;
+  position: relative;
+  z-index: 1;
+}
+.container-daftar {
+  background-color: white;
+  position: relative;
+  z-index: 0;
+  border: 1px solid black;
+  margin-top: -1.8em;
+}
+.daftar-hitung {
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+.container-hitungan {
+  margin-top: 1em;
+  background-color: #c4c4c4;
+  border-radius: 0.25em;
+  padding: 1.2em;
+}
+.hitungan {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-hapus {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -1em;
+  margin-right: -1em;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.2em;
+  cursor: pointer;
+}
+
+.detail > button {
+  background-color: #5066b5;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 0.25em;
+  color: white;
+  cursor: pointer;
+  margin-right: 1em;
+}
+td,
+th {
+  padding: 0.2em 1em;
+}

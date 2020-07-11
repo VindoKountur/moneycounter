@@ -1,0 +1,32 @@
+nav {
+  background-color: #5066b5;
+  padding: 0.5rem 1rem;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: #fff;
+}
+
+nav > ul > li {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin-left: 2em;
+  border-bottom: 1px solid #fff;
+}
+
+nav > ul > li:hover {
+  color: #b1b1b1;
+}
+
+.nodecor {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nodecor:hover {
+  color: #b1b1b1;
+  text-decoration: none;
+}
