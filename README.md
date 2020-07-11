@@ -1,5 +1,7 @@
 # Money Counter
 
+`Aplikasi ini masih kurang responsive`
+
 ## Tech
 
 - React
