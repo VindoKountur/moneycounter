@@ -1,10 +1,10 @@
 .container {
-  width: 50%;
   margin: 0 auto;
+  width: 80%;
+  padding-bottom: 2em;
 }
 .container-title {
   background-color: #37c578;
-  width: 30%;
   color: white;
   text-align: center;
   font-size: 1.2em;
@@ -17,7 +17,6 @@
 
 .form-jumlah-uang {
   background-color: #c4c4c4;
-  position: relative;
   z-index: 0;
   border: 1px solid black;
   margin-top: -1.8em;
@@ -56,4 +55,11 @@ input[type='number'] {
   border-radius: 0.25rem;
   border: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .daftar-jumlah-uang {
+    flex-direction: column;
+    width: 100%;
+  }
 }

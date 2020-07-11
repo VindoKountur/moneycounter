@@ -128,72 +128,70 @@ const Form = () => {
     limaRatus,
   } = newHitungan;
   return (
-    <div>
-      <div className='container'>
-        <div className='container-title'>Masukkan Jumlah Uang</div>
-        <form className='form-jumlah-uang' onSubmit={_handleOnSubmit}>
-          <div className='daftar-jumlah-uang'>
-            <div>
-              <InputUang
-                nama={'seratusRibu'}
-                pecahan={'100.000'}
-                value={seratusRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'limapuluhRibu'}
-                pecahan={'50.000'}
-                value={limapuluhRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'duapuluhRibu'}
-                pecahan={'20.000'}
-                value={duapuluhRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'sepuluhRibu'}
-                pecahan={'10.000'}
-                value={sepuluhRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-            </div>
-            <div>
-              <InputUang
-                nama={'limaRibu'}
-                pecahan={'5.000'}
-                value={limaRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'duaRibu'}
-                pecahan={'2.000'}
-                value={duaRibu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'seribu'}
-                pecahan={'1.000'}
-                value={seribu}
-                aturNewHitungan={aturNewHitungan}
-              />
-              <InputUang
-                nama={'limaRatus'}
-                pecahan={'500'}
-                value={limaRatus}
-                aturNewHitungan={aturNewHitungan}
-              />
-            </div>
+    <div className='container'>
+      <div className='container-title'>Masukkan Jumlah Uang</div>
+      <form className='form-jumlah-uang' onSubmit={_handleOnSubmit}>
+        <div className='daftar-jumlah-uang'>
+          <div>
+            <InputUang
+              nama={'seratusRibu'}
+              pecahan={'100.000'}
+              value={seratusRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'limapuluhRibu'}
+              pecahan={'50.000'}
+              value={limapuluhRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'duapuluhRibu'}
+              pecahan={'20.000'}
+              value={duapuluhRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'sepuluhRibu'}
+              pecahan={'10.000'}
+              value={sepuluhRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
           </div>
-          <div className='jumlah-uang'>
-            <h2>Rp. {newHitungan.jumlah}</h2>
+          <div>
+            <InputUang
+              nama={'limaRibu'}
+              pecahan={'5.000'}
+              value={limaRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'duaRibu'}
+              pecahan={'2.000'}
+              value={duaRibu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'seribu'}
+              pecahan={'1.000'}
+              value={seribu}
+              aturNewHitungan={aturNewHitungan}
+            />
+            <InputUang
+              nama={'limaRatus'}
+              pecahan={'500'}
+              value={limaRatus}
+              aturNewHitungan={aturNewHitungan}
+            />
           </div>
-          <div className='button-submit'>
-            <button>Submit</button>
-          </div>
-        </form>
-      </div>
+        </div>
+        <div className='jumlah-uang'>
+          <h2>Rp. {newHitungan.jumlah}</h2>
+        </div>
+        <div className='button-submit'>
+          <button>Submit</button>
+        </div>
+      </form>
     </div>
   );
 };
